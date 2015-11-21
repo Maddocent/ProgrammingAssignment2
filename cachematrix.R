@@ -144,12 +144,14 @@ cacheSolve <- function(x=matrix(), ...) {
 CacheMatrix1 <- makeCacheMatrix(Test1)
 X <- cacheSolve(CacheMatrix1)
 X
+#The error created by Test1 is because this matrix is not invertable: det(Matrix) = 0 this type of matrix is called singular
+
 
 #testing Matrix "Test2"
 CacheMatrix2 <- makeCacheMatrix(Test2)
 Y <- cacheSolve(CacheMatrix2)
 Y
-#The error created by Test1 is because this matrix is not invertable: det(Matrix) = 0
+
 
 #testing Matrix "Test3"
 CacheMatrix3 <- makeCacheMatrix(Test3)
