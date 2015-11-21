@@ -51,6 +51,8 @@
 
 ## Write a short comment describing this function
 
+##I have used examples available on Stackoverflow.com to solve this assignment.
+
 #creating 3 test random matirces: Test 1 is singular (not-invertable)
 
 #non-sigular (det >0)
